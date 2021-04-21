@@ -1,0 +1,78 @@
+.body{
+    background-color:hsl(176, 16%, 62%) ;
+    background-image: url(./img/start_page.png);
+    background-position-x: center;
+    background-size: cover;
+    background-repeat: no-repeat;/*Background making it cover full screen*/
+    background-attachment: fixed;
+   
+}
+.Form{
+   
+    margin-top:-13%;
+    margin-left: 40%;
+    font-family: Arial, Helvetica, sans-serif; 
+    font-size: 13px;
+    color:rgb(255, 255, 255);
+   
+  
+ }
+ .Form input{
+    color:rgb(255, 255, 255);
+    width:30%;
+    height:5px;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+ }
+ .Form input[type=text] {
+    
+   
+    border:1px solid  rgb(212, 216, 218);;
+    padding:12px;
+    border-radius: 4px;
+    resize:vertical;
+    background-color: rgba(45, 150, 216, 0.26);
+ }
+ .Form2{
+   
+    margin-top:0%;
+    margin-left: 40%;
+    font-family: Arial, Helvetica, sans-serif; 
+    font-size: 13px;
+    color:rgb(255, 255, 255);
+   
+  
+ }
+ .Form2 input{
+    color:rgb(255, 255, 255);
+    width:30%;
+    height:5px;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+ }
+ .Form2 input[type=password]{   
+    border:1px solid  rgb(212, 216, 218);;
+    padding:12px;
+    border-radius: 4px;
+    resize:vertical;
+    background-color: rgba(45, 150, 216, 0.26);
+ }
+ .Button/*styling button*/
+ {
+    color:rgb(37, 81, 104);
+    background-color: rgb(243, 237, 229);
+    width: 100px;
+    padding:2px;
+    
+    border-radius:12px;
+    font-size:12px;
+    border:0;
+    cursor:pointer;
+    margin:1px;
+    margin-left:60%;
+    margin-top:2%;
+ 
+ }
+ .Button:hover{
+    background-color: rgb(55, 126, 155);
+ }
