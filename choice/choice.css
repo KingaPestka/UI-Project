@@ -1,0 +1,92 @@
+.body{
+    background-color:hsl(176, 16%, 62%) ;
+    background-image: url(./img/start_page.png);
+    background-position-x: center;
+    background-size: cover;
+    background-repeat: no-repeat;/*Background making it cover full screen*/
+    background-attachment: fixed;
+   
+}
+.Button/*styling button*/
+{
+   color:rgb(37, 81, 104);
+   background-color: rgb(243, 237, 229);
+   width: 100px;
+   padding:2px;
+   
+   border-radius:12px;
+   font-size:12px;
+   border:0;
+   cursor:pointer;
+   margin:1px;
+   margin-left:90%;
+   margin-top:-300px;
+   position:absolute;
+
+}
+
+.Button:hover{
+   background-color: rgb(55, 126, 155);
+}
+.container {
+  
+    max-width: 1300px;
+    position: relative;
+    margin-top:-41%;
+    margin-left: 15%;
+    overflow: 0;
+  }
+  
+  /* Next & previous buttons */
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 35%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    background-color: rgba(64, 66, 66, 0.589);
+  }
+  .text {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 50%;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 2px;
+    position: absolute;
+    top: 30%;
+    bottom: 0;
+    width: 300px;
+    text-align: center;
+    font-weight: bold;
+    
+  }
+  .text2 {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 50%;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 2px;
+    position: absolute;
+    top: 30%;
+    bottom: 0;
+    width: 300px;
+    text-align: center;
+    font-weight: bold;
+    
+  }
