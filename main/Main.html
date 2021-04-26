@@ -8,7 +8,7 @@
         <body onload="pageLoaded()">
             <div class="canvas-container">
                 <div class= "wrapper">
-                    <img class ="background1" src="./img/smoke_background_brennan.png" alt="Brennan Background">
+                    <img class ="background1" id = "background1" src="./img/smoke_background_brennan.png" alt="Brennan Background">
                 <canvas id='the_canvas' style= "border:1px solid black;"></canvas>
                 </div>
                
@@ -19,7 +19,11 @@
                <button onclick='button4()'id="button4"></button>
             
                </div>
-        
+               <div class = "health">
+                <progress id="heal" value="100" max="100"></progress>
+
+
+               </div>
         <!---<table>
             <tbody>
                 
