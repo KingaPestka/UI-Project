@@ -46,13 +46,13 @@ function checkCorrectSequence() {
 	if (correctSequence[loopThroughSequence] == playerSequence[loopThroughSequence]) {
 		loopThroughSequence = loopThroughSequence + 1;
 		//loseHealth();
-		alert("the bar goes down by 25%");
+		//alert("the bar goes down by 25%");
 		health(25);
         
 	}		
 	else {
 		console.log("Sequence is not correct!");
-		alert("You sequence is not correct!");
+		//alert("You sequence is not correct!");
 		document.getElementById("heal").value = "100";
 		resetSequence();
 		//restoreHealth();
@@ -66,7 +66,7 @@ function checkCorrectSequence() {
 }
 function murderSolvedSuccessfully() {
 	console.log("murder has been solved successfully!");
-	alert("You Solved the murder and bar is empty");
+	alert("You Solved the murder! Waynona Brown got murdered in the forest, her head was cut off with an axe, all evidence including finger prints on the weapon ,pointed to Harvy Gray.");
 	resetSequence();
 }
 
