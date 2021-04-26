@@ -29,6 +29,6 @@ function checkimg(){
     window.location="/main/main2.html";
   }
   else if(slideIndex == 2){
-    window.location="https://kingapestka.github.io/main/main.html";
+    window.location="/main/Main.html";
   }
 }
