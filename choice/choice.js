@@ -26,9 +26,9 @@ function FunctionButton(){
 }//button triggered
 function checkimg(){
   if(slideIndex == 1){
-    window.location="/main/main2.html";
+    window.location="../main/main2.html";
   }
   else if(slideIndex == 2){
-    window.location="/main/Main.html";
+    window.location="../main/Main.html";
   }
 }
